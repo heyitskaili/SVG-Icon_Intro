@@ -1,10 +1,10 @@
 /* =============
-    Demo
+    Flowerpot
 ============= */
-#demo{
+#flowerpot{
     display: grid;
     grid-template-columns: auto 90% auto;
-    grid-template-areas: ". demo .";
+    grid-template-areas: ". flowerpot .";
 
     @include md{
         grid-template-columns: auto 80% auto;   
@@ -15,16 +15,19 @@
     }
 
     >div{
-        grid-area: demo;
-        border: 3px solid aqua;
+        grid-area: flowerpot;
+        // border: 3px solid aqua;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;        
 
         svg{
-            border: 3px solid #000;
-            // width: 100%;
+            // border: 3px solid #000;
+            width: 100%;
+            height: 100%;
+            
+
         }
     }
 }

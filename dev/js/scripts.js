@@ -1,5 +1,8 @@
 import {gsap} from "gsap";
-import {redBoxAnimation} from "./demo.js"
+import {PattlesAnimation} from "./pattles.js"
+import {FaceAnimation} from "./face.js"
+
 
 const mainTL = gsap.timeline();
-mainTL.add(redBoxAnimation());
+mainTL.add(PattlesAnimation());
+mainTL.add(FaceAnimation());
