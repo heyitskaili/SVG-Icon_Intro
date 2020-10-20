@@ -1,9 +1,10 @@
 import {gsap} from "gsap";
 
-gsap.set("#pots",{transformOrigin: "center"});
+gsap.set("#pot",{transformOrigin: "center"});
 
 export function PotAnimation(){
     var tl = gsap.timeline();
-    tl.from("#pots",{duration: 2, rotate:360, repeat:-1});
+    tl.from("#pot",{duration:0.7, y:4});
+
     return tl;
 }
