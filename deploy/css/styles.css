@@ -382,7 +382,8 @@ textarea {
 #flowerpot {
   display: grid;
   grid-template-columns: auto 90% auto;
-  grid-template-areas: ". flowerpot ."; }
+  grid-template-areas: ". flowerpot .";
+  background-color: #b8c6d1; }
   @media (min-width: 768px) {
     #flowerpot {
       grid-template-columns: auto 80% auto; } }
@@ -398,3 +399,6 @@ textarea {
     #flowerpot > div svg {
       width: 100%;
       height: 100%; }
+
+#flowerface {
+  cursor: pointer; }
