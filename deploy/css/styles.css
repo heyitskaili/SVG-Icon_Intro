@@ -352,6 +352,22 @@ p {
 /* =============
     Buttons
 ============= */
+.first {
+  width: 55px;
+  height: 55px;
+  background-color: #72560A;
+  position: absolute;
+  top: 62%;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 #72560A;
+  transition: 1s;
+  border: white; }
+
+.first:focus {
+  box-shadow: 0 0 0 1000px #72560A; }
+
 /* =============
     Forms
 ============= */
@@ -399,6 +415,3 @@ textarea {
     #flowerpot > div svg {
       width: 100%;
       height: 100%; }
-
-#flowerface {
-  cursor: pointer; }
